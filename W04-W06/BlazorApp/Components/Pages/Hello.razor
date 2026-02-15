@@ -1,0 +1,11 @@
+@page "/hello"
+
+<PageTitle>Hello</PageTitle>
+
+<h1>Hello, @name!</h1>
+
+<input @bind="name" placeholder="Enter your name" />
+
+@code {
+    private string name = "World";
+}

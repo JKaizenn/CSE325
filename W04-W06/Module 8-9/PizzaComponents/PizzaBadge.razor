@@ -1,0 +1,11 @@
+<div style="background: @Color; color: white; padding: 5px 10px; border-radius: 4px; display: inline-block;">
+    @Label
+</div>
+
+@code {
+    [Parameter]
+    public string Label { get; set; } = "New!";
+
+    [Parameter]
+    public string Color { get; set; } = "#e74c3c";
+}
